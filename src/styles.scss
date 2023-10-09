@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;;
+}
+
+body, html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background: rgb(18,18,18);
+    background: linear-gradient(108deg, rgba(18,18,18,1) 51%, rgba(79,79,79,1) 100%);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.ProfileImage {
+    display: flex;
+
+    img {
+        width: 115px;
+        border-radius: 50%;
+        border: 3px solid white;
+        margin: 0 auto;
+        align-items: center;
+        margin-top: 2em;
+        margin-bottom: 1em;
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+    }
+}
+
+.Content {
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+
+    ul {
+        list-style: none;
+        padding-left: 0;
+    }
+
+    li {
+        margin: 0;
+        padding: 0;
+    }
+
+    hr {
+        margin-top: 1em;
+    }
+
+    .title {
+        color: white;
+        letter-spacing: 5px;
+
+        p {
+            font-size: 10px;
+        }
+
+        h1 {
+            font-size: 36px;
+        }
+    }
+
+    .mainContent {
+        color: #A3A3A3;
+        font-size: 14px;
+
+        button {
+            font-size: 18px;
+            font-weight: 600;
+            background-color: #3D6D7B;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    }
+
+    .fillerContent {
+        color: #A3A3A3;
+        font-size: 14px;
+
+        h1 {
+            margin-top: 1em;
+            margin-bottom: 1.5em;
+            font-size: 18px;
+            color: white;
+            letter-spacing: 5px;
+        }
+    }
+}
+
+.contactMe {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+
+    h1 {
+        font-size: 36px;
+        letter-spacing: 5px;
+        color: white;
+    }
+
+    p {
+        color: #A3A3A3;
+        font-size: 14px;
+    }
+
+    hr {
+        margin-top: 2em;
+        margin-bottom: 3em;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+
+        input {
+            background: transparent;
+            caret-color: white;
+            margin-bottom: 2em;
+            border: 1px solid white;
+            border-radius: 5px;
+            padding: 10px;
+        }
+
+        button {
+            font-size: 18px;
+            font-weight: 600;
+            background-color: #3D6D7B;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            border-radius: 5px;
+        }
+    }
+}
