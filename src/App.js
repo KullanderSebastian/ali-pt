@@ -2,7 +2,7 @@ import './styles.scss';
 import Index from './components/Index';
 import ContactMe from './components/ContactMe';
 
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
     return (
